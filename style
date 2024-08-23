@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(72, 73, 73);
+    color:rgb(221, 221, 216) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+
+}
+
+button  {
+    background-color: rgb(21, 23, 23);
+    color: aliceblue;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display:block;
+}
