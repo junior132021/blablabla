@@ -1,22 +1,22 @@
-<html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>A ultima rota </title>
+    <title>A Última Rota</title>
 </head>
 <body>
     <main>
-        <div class="passo ativo" id="passo 0">
+        <div class="passo ativo" id="passo-0">
             <p>Fomos convocados para uma missão espacial, nossos radares detectaram um pulso muito fraco de um lugar no meio do nada. Com uma equipe de 3 astronautas, fomos conferir se existe vida nessa nave perdida e tenebrosa.</p>
-            <button class="btn-proximo" data-proximo="0">Começar missão</button>
+            <button class="btn-proximo" data-proximo="1">Começar missão</button>
         </div>
        
-        <div class="passo" id="passo 1"> 
-            <p>Chegando ao destino, vemos duas opções para adentrar a nave, acoplando a sua nave por cima, ou aclopando-a por baixo. Como capitão da tripulação, você que decide por onde entrar.</p>
-            <button class="btn-proximo" data-proximo="1">Acoplar por cima</button>
-            <button class="btn-proximo" data-proximo="2">Acoplar por baixo</button>
+        <div class="passo" id="passo-1"> 
+            <p>Chegando ao destino, vemos duas opções para adentrar a nave, acoplando a sua nave por cima, ou acoplando-a por baixo. Como capitão da tripulação, você que decide por onde entrar.</p>
+            <button class="btn-proximo" data-proximo="2">Acoplar por cima</button>
+            <button class="btn-proximo" data-proximo="3">Acoplar por baixo</button>
         </div>
     </main>
 
